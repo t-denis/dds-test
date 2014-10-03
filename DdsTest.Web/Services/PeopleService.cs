@@ -18,13 +18,13 @@ namespace DdsTest.Web.Services
             {
                 new Person
                 {
-                    Id = Guid.NewGuid(),
+                    Id = 1,
                     FirstName = "Bill",
                     LastName = "Gates"
                 },
                 new Person
                 {
-                    Id = Guid.NewGuid(),
+                    Id = 2,
                     FirstName = "Steve",
                     LastName = "Jobs"
                 },

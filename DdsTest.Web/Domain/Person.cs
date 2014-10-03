@@ -8,7 +8,7 @@ namespace DdsTest.Web.Domain
     public class Person
     {
         [DataMember, Key]
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         [DataMember]
         public string FirstName { get; set; }
         [DataMember]

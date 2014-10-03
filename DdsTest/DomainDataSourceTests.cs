@@ -15,6 +15,8 @@ namespace DdsTest
         [TestInitialize]
         public void Init()
         {
+            _isLoaded = false;
+            _hasError = false;
             _domainDataSource = new DomainDataSource
             {
                 QueryName = "GetPeopleQuery",
